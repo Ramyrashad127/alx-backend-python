@@ -6,6 +6,6 @@ from typing import Tuple, Union
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    """sum"""
+    """power of two"""
     x = v ** 2
     return (k, x)
